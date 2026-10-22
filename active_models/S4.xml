@@ -1,0 +1,44 @@
+{
+  "states": 3,
+  "transitions": [
+    {
+      "curr_var": "curr",
+      "start_state": 0,
+      "guard": "True",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 1
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 1,
+      "guard": "curr <= r1",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 1
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 1,
+      "guard": "curr > r1",
+      "assignment": {},
+      "end_state": 2
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 2,
+      "guard": "True",
+      "assignment": {},
+      "end_state": 2
+    }
+  ],
+  "register_vars": [
+    "r1"
+  ],
+  "final_states": [
+    0,
+    1
+  ]
+}

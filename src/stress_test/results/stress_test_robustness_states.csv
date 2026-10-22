@@ -1,0 +1,37 @@
+timestamp,n_value,actual_states,num_vectors,delta,metric,total_time,avg_time_per_vector,robust_count,non_robust_count,not_accepted_count,timeout_occurred,status,error
+2026-03-16T11:59:34.023587,2,4,100,0.1,last_letter,0.1965,1.9647,0,24,76,False,success,
+2026-03-16T11:59:34.227940,5,7,100,0.1,last_letter,0.1980,1.9796,0,0,100,False,success,
+2026-03-16T11:59:34.573365,10,12,100,0.1,last_letter,0.3420,3.4204,0,0,100,False,success,
+2026-03-16T11:59:35.182353,20,22,100,0.1,last_letter,0.6045,6.0448,0,0,100,False,success,
+2026-03-16T12:14:29.184899,2,4,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:29.186229,5,7,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:29.187267,10,12,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:29.189111,20,22,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:43.943537,2,4,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:43.944650,5,7,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:43.946439,10,12,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:43.949729,20,22,100,0.1,last_letter,,,0,0,0,False,error,generate_test_vectors_increasing() got an unexpected keyword argument 'include_accepted'
+2026-03-16T12:14:51.659610,2,4,100,0.1,last_letter,0.1567,1.5670,0,50,50,False,success,
+2026-03-16T12:14:51.939592,5,7,100,0.1,last_letter,0.2721,2.7206,0,50,50,False,success,
+2026-03-16T12:14:52.378350,10,12,100,0.1,last_letter,0.4338,4.3385,0,50,50,False,success,
+2026-03-16T12:14:53.200412,20,22,100,0.1,last_letter,0.8164,8.1643,0,50,50,False,success,
+2026-03-16T12:17:18.751974,2,4,100,0.1,last_letter,0.1828,1.8278,0,50,50,False,success,
+2026-03-16T12:17:19.010141,5,7,100,0.1,last_letter,0.2477,2.4769,0,50,50,False,success,
+2026-03-16T12:17:19.437279,10,12,100,0.1,last_letter,0.4229,4.2286,0,50,50,False,success,
+2026-03-16T12:17:20.317295,20,22,100,0.1,last_letter,0.8740,8.7401,0,50,50,False,success,
+2026-03-16T12:17:38.388592,2,4,100,0.1,last_letter,0.1160,1.1602,0,50,50,False,success,
+2026-03-16T12:17:38.638728,5,7,100,0.1,last_letter,0.2461,2.4612,0,50,50,False,success,
+2026-03-16T12:17:39.159218,10,12,100,0.1,last_letter,0.5144,5.1441,0,50,50,False,success,
+2026-03-16T12:17:40.118212,20,22,100,0.1,last_letter,0.9521,9.5212,0,50,50,False,success,
+2026-03-16T12:17:51.066918,2,4,100,0.1,last_letter,0.1291,1.2908,0,50,50,False,success,
+2026-03-16T12:17:51.329855,5,7,100,0.1,last_letter,0.2582,2.5820,0,50,50,False,success,
+2026-03-16T12:17:51.778832,10,12,100,0.1,last_letter,0.4435,4.4351,0,50,50,False,success,
+2026-03-16T12:17:52.642233,20,22,100,0.1,last_letter,0.8562,8.5622,0,50,50,False,success,
+2026-03-16T12:18:26.603131,2,4,100,0.1,last_letter,0.1588,1.5876,0,50,50,False,success,
+2026-03-16T12:18:26.978804,5,7,100,0.1,last_letter,0.3693,3.6930,0,50,50,False,success,
+2026-03-16T12:18:27.516838,10,12,100,0.1,last_letter,0.5329,5.3286,0,50,50,False,success,
+2026-03-16T12:18:28.332710,20,22,100,0.1,last_letter,0.8073,8.0730,0,50,50,False,success,
+2026-03-16T12:23:06.107364,2,4,100,0.1,last_letter,0.1538,1.5384,0,50,50,False,success,
+2026-03-16T12:23:06.410434,5,7,100,0.1,last_letter,0.2978,2.9785,0,50,50,False,success,
+2026-03-16T12:23:06.819182,10,12,100,0.1,last_letter,0.4037,4.0373,0,50,50,False,success,
+2026-03-16T12:23:07.626973,20,22,100,0.1,last_letter,0.8021,8.0213,0,50,50,False,success,

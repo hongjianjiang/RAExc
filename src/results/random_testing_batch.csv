@@ -1,0 +1,37 @@
+language,metric,model,num_tries,robust,time,error
+L1,last_letter,lstm,1,False,0.06709027290344238,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+L2,last_letter,lstm,1,False,0.06767511367797852,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+L3,last_letter,lstm,1,False,0.07216119766235352,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+L4,last_letter,lstm,1,False,0.06950998306274414,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+L6,last_letter,lstm,1,False,0.07549309730529785,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+L7,last_letter,lstm,1,False,0.0737297534942627,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S1,last_letter,lstm,1,False,0.07404184341430664,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+L5,last_letter,lstm,1,False,0.14836597442626953,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S5,last_letter,lstm,1,False,0.06909513473510742,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S3,last_letter,lstm,1,False,0.08727693557739258,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S2,last_letter,lstm,1,False,0.09946107864379883,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S6,last_letter,lstm,1,False,0.06773614883422852,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S8,last_letter,lstm,1,False,0.07636380195617676,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S9,last_letter,lstm,1,False,0.07093596458435059,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S10,last_letter,lstm,1,False,0.07190990447998047,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S4,last_letter,lstm,1,False,0.14190101623535156,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S7,last_letter,lstm,1,False,0.10335516929626465,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"
+S11,last_letter,lstm,1,False,0.07219409942626953,"/Library/Frameworks/Python.framework/Versions/3.12/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/alexander/work/interpretera/src/src/random_testing_unified.py': [Errno 2] No such file or directory
+"

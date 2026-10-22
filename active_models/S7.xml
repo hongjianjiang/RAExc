@@ -1,0 +1,92 @@
+{
+  "states": 6,
+  "transitions": [
+    {
+      "curr_var": "curr",
+      "start_state": 0,
+      "guard": "True",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 3
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 1,
+      "guard": "curr > r1",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 1
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 1,
+      "guard": "curr <= r1",
+      "assignment": {},
+      "end_state": 4
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 2,
+      "guard": "curr > r1",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 1
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 2,
+      "guard": "curr <= r1",
+      "assignment": {},
+      "end_state": 4
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 3,
+      "guard": "curr <= r1",
+      "assignment": {},
+      "end_state": 4
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 3,
+      "guard": "curr > r1",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 5
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 4,
+      "guard": "True",
+      "assignment": {},
+      "end_state": 4
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 5,
+      "guard": "curr < r1",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 2
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 5,
+      "guard": "curr >= r1",
+      "assignment": {},
+      "end_state": 4
+    }
+  ],
+  "register_vars": [
+    "r1"
+  ],
+  "final_states": [
+    0,
+    1
+  ]
+}

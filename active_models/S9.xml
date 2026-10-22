@@ -1,0 +1,16 @@
+{
+  "states": 1,
+  "transitions": [
+    {
+      "curr_var": "curr",
+      "start_state": 0,
+      "guard": "True",
+      "assignment": {},
+      "end_state": 0
+    }
+  ],
+  "register_vars": [],
+  "final_states": [
+    0
+  ]
+}

@@ -1,0 +1,100 @@
+{
+    "states": 7,
+    "transitions": [
+        {
+            "curr_var": "curr",
+            "start_state": 0,
+            "guard": "And(curr >= 65, curr <= 90)",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 1
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 1,
+            "guard": "And(curr >= 97, curr <= 122)",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 1
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 1,
+            "guard": "curr == 44",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 2
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 2,
+            "guard": "curr == 32",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 2
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 2,
+            "guard": "And(curr >= 65, curr <= 90)",
+            "assignment": {
+                "r0": "c"
+            },
+            "end_state": 3
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 3,
+            "guard": "And(curr >= 97, curr <= 122)",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 3
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 3,
+            "guard": "curr == 44",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 4
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 4,
+            "guard": "curr == 32",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 4
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 4,
+            "guard": "And(curr >= 65, curr <= 90)",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 5
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 5,
+            "guard": "And(And(curr >= 65, curr <= 90), curr == r0)",
+            "assignment": {},
+            "end_state": 6
+        }
+    ],
+    "register_vars": [
+        "r0",
+        "r1"
+    ],
+    "final_states": [
+        6
+    ]
+}

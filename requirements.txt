@@ -1,0 +1,5 @@
+pygraphviz
+z3-solver
+numpy
+graphviz
+matplotlib

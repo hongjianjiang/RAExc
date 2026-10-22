@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<register-automaton>
+    <alphabet>
+        <inputs>
+            <symbol name="IPut">
+                <param type="int" name="p1"/>
+            </symbol>
+        </inputs>
+        <outputs>
+            <symbol name="OOK"/>
+            <symbol name="ONOK"/>
+        </outputs>
+    </alphabet>
+    <constants/>
+    <globals>
+        <variable type="int" name="r1">0</variable>
+    </globals>
+    <locations>
+        <location name="l0" initial="true"/>
+        <location name="l1"/>
+        <location name="l2"/>
+        <location name="l3"/>
+        <location name="l4"/>
+        <location name="l5"/>
+        <location name="l6"/>
+    </locations>
+    <transitions>
+        <transition from="l0" to="l1" symbol="IPut">
+            <assignments>
+                <assign to="r1">p1</assign>
+            </assignments>
+        </transition>
+        <transition from="l1" to="l4" symbol="OOK">
+            <assignments/>
+        </transition>
+        <transition from="l4" to="l1" symbol="IPut">
+            <guard>'r1' == 'p1'</guard>
+            <assignments/>
+        </transition>
+        <transition from="l4" to="l5" symbol="IPut">
+            <guard>'r1' != 'p1'</guard>
+            <assignments/>
+        </transition>
+        <transition from="l5" to="l6" symbol="ONOK">
+            <assignments/>
+        </transition>
+        <transition from="l6" to="l5" symbol="IPut">
+            <assignments/>
+        </transition>
+    </transitions>
+</register-automaton>

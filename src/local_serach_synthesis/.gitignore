@@ -1,0 +1,5 @@
+automaton/
+__pycache__/
+output/
+dras/
+dataset/

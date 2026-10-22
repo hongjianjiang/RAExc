@@ -1,0 +1,17 @@
+name: drarobustness
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - numpy
+  - graphviz
+  - networkx
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pip:
+      - z3-solver
+      - torch
+      - graphviz
+

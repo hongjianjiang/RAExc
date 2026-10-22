@@ -1,0 +1,73 @@
+{
+  "states": 5,
+  "transitions": [
+    {
+      "curr_var": "curr",
+      "start_state": 0,
+      "guard": "True",
+      "assignment": {
+        "r1": "curr"
+      },
+      "end_state": 1
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 1,
+      "guard": "r1 != curr",
+      "assignment": {},
+      "end_state": 2
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 1,
+      "guard": "r1 == curr",
+      "assignment": {
+        "r1": "r1"
+      },
+      "end_state": 3
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 2,
+      "guard": "True",
+      "assignment": {},
+      "end_state": 2
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 3,
+      "guard": "r1 != curr",
+      "assignment": {},
+      "end_state": 2
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 3,
+      "guard": "r1 == curr",
+      "assignment": {
+        "r1": "r1"
+      },
+      "end_state": 4
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 4,
+      "guard": "r1 == curr",
+      "assignment": {},
+      "end_state": 0
+    },
+    {
+      "curr_var": "curr",
+      "start_state": 4,
+      "guard": "r1 != curr",
+      "assignment": {},
+      "end_state": 2
+    }
+  ],
+  "register_vars": [
+    "r1"
+  ],
+  "final_states": [
+    0
+  ]
+}

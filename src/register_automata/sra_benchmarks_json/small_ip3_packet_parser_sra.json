@@ -1,0 +1,152 @@
+{
+    "states": 16,
+    "transitions": [
+        {
+            "curr_var": "curr",
+            "start_state": 0,
+            "guard": "curr == 115",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 1
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 1,
+            "guard": "curr == 58",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 2
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 2,
+            "guard": "And(curr >= 48, curr <= 57)",
+            "assignment": {
+                "r0": "c"
+            },
+            "end_state": 3
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 3,
+            "guard": "And(curr >= 48, curr <= 57)",
+            "assignment": {
+                "r1": "c"
+            },
+            "end_state": 4
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 4,
+            "guard": "And(curr >= 48, curr <= 57)",
+            "assignment": {
+                "r2": "c"
+            },
+            "end_state": 5
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 5,
+            "guard": "curr == 32",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 6
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 6,
+            "guard": "curr == 112",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 7
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 7,
+            "guard": "curr == 58",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 8
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 8,
+            "guard": "And(curr >= 48, curr <= 57)",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 9
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 9,
+            "guard": "And(curr >= 48, curr <= 57)",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 9
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 9,
+            "guard": "curr == 32",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 10
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 10,
+            "guard": "curr == 100",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 11
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 11,
+            "guard": "curr == 58",
+            "assignment": {
+                "r3": "c"
+            },
+            "end_state": 12
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 12,
+            "guard": "And(And(curr >= 48, curr <= 57), curr == r0)",
+            "assignment": {},
+            "end_state": 13
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 13,
+            "guard": "And(And(curr >= 48, curr <= 57), curr == r1)",
+            "assignment": {},
+            "end_state": 14
+        },
+        {
+            "curr_var": "curr",
+            "start_state": 14,
+            "guard": "And(And(curr >= 48, curr <= 57), curr == r2)",
+            "assignment": {},
+            "end_state": 15
+        }
+    ],
+    "register_vars": [
+        "r0",
+        "r1",
+        "r2",
+        "r3"
+    ],
+    "final_states": [
+        15
+    ]
+}
